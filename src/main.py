@@ -6,7 +6,7 @@ def formatear_nombre(nombre: str, apellido1: str, apellido2: str) -> str:
     :param apellido1: primer apellido
     :param apellido2: segundo apellido
 
-    :returns: cadena formateada
+    :return: cadena formateada
     """
 
     return f"{nombre.title().strip()} {apellido1.title().strip()} {apellido2.title().strip()}"
