@@ -8,14 +8,14 @@ def formatear_nombre(nombre: str, apellido1: str, apellido2: str) -> str:
 
     :return: cadena formateada
     """
-
+    
     return f"{nombre.title().strip()} {apellido1.title().strip()} {apellido2.title().strip()}"
 
 
 def main():
-    nombre = input("Introduce tu nombre: ")
-    apellido1 = input("Introduce tu primer apellido: ")
-    apellido2 = input("Introduce tu segundo apellido: ")
+    nombre = str(input("Introduce tu nombre: "))
+    apellido1 = str(input("Introduce tu primer apellido: "))
+    apellido2 = str(input("Introduce tu segundo apellido: "))
 
     nombre_formateado = formatear_nombre(nombre, apellido1, apellido2)
     print("\n", nombre_formateado)
