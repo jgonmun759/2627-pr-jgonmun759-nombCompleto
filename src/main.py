@@ -17,8 +17,8 @@ def capitalizar(cadena: str) -> str:
         :return: la cadena convertida
     """
     
-    lista_palabras = cadena.split()
-    palabras_capitalizadas = [capitalizar_palabra(palabra) for palabra in lista_palabras]
+    lista_palabras: list[str] = cadena.split()
+    palabras_capitalizadas: list[str] = [capitalizar_palabra(palabra) for palabra in lista_palabras]
     
     return " ".join(palabras_capitalizadas)
 
@@ -37,9 +37,9 @@ def formatear_nombre(nombre: str, apellido1: str, apellido2: str) -> str:
 
 
 def main():
-    nombre = str(input("Introduce tu nombre: "))
-    apellido1 = str(input("Introduce tu primer apellido: "))
-    apellido2 = str(input("Introduce tu segundo apellido: "))
+    nombre = str(input())
+    apellido1 = str(input())
+    apellido2 = str(input())
 
     nombre_formateado = formatear_nombre(nombre, apellido1, apellido2)
     print("\n", nombre_formateado)
