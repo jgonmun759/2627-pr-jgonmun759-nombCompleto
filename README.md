@@ -16,7 +16,7 @@ La función debe devolver una cadena con el nombre completo, cumpliendo las sigu
   GARCÍA  
   pérez  
 - Juan Antonio García Pérez
-- Requisitos de desarrollo
+# Requisitos de desarrollo
 - Crea un repositorio público de GitHub con el nombre indicado, sustituyendo usuarioPasen por tu usuario.
 - Utiliza la estructura básica de un proyecto Python: src/main.py, README.md y .gitignore.
 - Copia este enunciado en el archivo README.md.
