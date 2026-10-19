@@ -12,12 +12,12 @@ La función debe devolver una cadena con el nombre completo, cumpliendo las sigu
 - Admitir nombres compuestos.
 - Unir el nombre y los dos apellidos separados por un espacio.
 - Ejemplo de ejecución  
-  ```text
+```text
   JUAN ANTONIO  
   GARCÍA  
   pérez  
   
- Juan Antonio García Pérez
+  Juan Antonio García Pérez
  ```
 # Requisitos de desarrollo
 - Crea un repositorio público de GitHub con el nombre indicado, sustituyendo usuarioPasen por tu usuario.
