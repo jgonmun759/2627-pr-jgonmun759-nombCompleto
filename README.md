@@ -3,7 +3,7 @@ Desarrolla un programa en Python que solicite el nombre, el primer apellido y el
 
 # Implementa la siguiente función:
 
-formatear_nombre(nombre, apellido1, apellido2)
+`formatear_nombre(nombre, apellido1, apellido2)`
 
 La función debe devolver una cadena con el nombre completo, cumpliendo las siguientes condiciones:
 
@@ -12,10 +12,13 @@ La función debe devolver una cadena con el nombre completo, cumpliendo las sigu
 - Admitir nombres compuestos.
 - Unir el nombre y los dos apellidos separados por un espacio.
 - Ejemplo de ejecución  
+  ```text
   JUAN ANTONIO  
   GARCÍA  
   pérez  
-- Juan Antonio García Pérez
+  
+ Juan Antonio García Pérez
+ ```
 # Requisitos de desarrollo
 - Crea un repositorio público de GitHub con el nombre indicado, sustituyendo usuarioPasen por tu usuario.
 - Utiliza la estructura básica de un proyecto Python: src/main.py, README.md y .gitignore.
